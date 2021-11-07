@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-f0brq_bdtb2b*@0cto4qw8l6lvpwg9nw378nco23)-e$4!hq6=
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.144.239.118', 'localhost']
+ALLOWED_HOSTS = ['3.132.179.13', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -107,5 +107,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'home'
 
 LOGOUT_REDIRECT_URL = 'login'
-
-# coment
