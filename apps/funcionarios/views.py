@@ -31,7 +31,6 @@ class FuncionarioNovo(CreateView):
     fields = ['nome', 'departamentos']
 
     def form_valid(self, form):
-        # só cria objeto em mem
         funcionario = form.save(commit=False)
         username = funcionario.nome.split(' ')[0] + funcionario.nome.split(' ')[1]
         funcionario.empresa = self.request.user.funcionario.empresa

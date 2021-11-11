@@ -1,0 +1,191 @@
+[33mcommit a6187d0aebb802db19601d993b1a150893ecd4f8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 11 18:49:46 2021 -0400
+
+    adding apis stopped
+
+[33mcommit 5f29f9cba8ccc14f9d795849c38c4f5c6f52e2a1[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 11 18:10:53 2021 -0400
+
+    implantando apis
+
+[33mcommit 2791e28ff64126132c0616b8294fea47cddc69c8[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 18:45:38 2021 -0400
+
+    alterações para static in dev
+
+[33mcommit 8ca901856a8c1f833fe405ff1bd87e175f507ed1[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 17:34:51 2021 -0400
+
+    alterando ip para nginx
+
+[33mcommit 006423d7dc983ea13a104163773e05362418a993[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:25:34 2021 -0400
+
+    adding pasta
+
+[33mcommit 68a592584d42888892f53e0621f026f59b7631ee[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:24:52 2021 -0400
+
+    subindo pasta
+
+[33mcommit 95332a8d067f3edc214ad1542db55ed83059c57c[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:22:04 2021 -0400
+
+    altering
+
+[33mcommit 84a0b9332eafe440d60673d8da172f746e4e2e17[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:19:59 2021 -0400
+
+    alter settings
+
+[33mcommit 2618b4a359d37b8a157078c7d38e03333211b90b[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:16:13 2021 -0400
+
+    changing name static_root
+
+[33mcommit 3fae2ab2718bccc9b7ce901741b548c1603512b1[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 16:14:28 2021 -0400
+
+    alteração settings
+
+[33mcommit 262b6fcb6f33905bc4be0abc73d369323da2d794[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 15:35:56 2021 -0400
+
+    adding ip allowed
+
+[33mcommit a82a5b509a27ecec25a7d063738b2a6e52086455[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 15:19:00 2021 -0400
+
+    att gitignore
+
+[33mcommit ce94de6e734721edffcdafe7a309f6a735763c36[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sun Nov 7 14:38:09 2021 -0400
+
+    subindo test
+
+[33mcommit aa26cc3893170e0da2aca02c1d483c6826a5e4b9[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 20:37:10 2021 -0400
+
+    adicionando filtro de empresas para campo func de hora extra
+
+[33mcommit 1faca1eea48c460ef61f27c5b21026aa9bd40054[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 20:17:43 2021 -0400
+
+    crud registro hora extra completo
+
+[33mcommit b53d9050b55471d82a19495dda8a681d101d7745[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 19:45:49 2021 -0400
+
+    criando crud de registor hora
+
+[33mcommit e551a7ec080334070d064746eadb8de3e93c65b6[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 18:43:32 2021 -0400
+
+    crud documentos terminada
+
+[33mcommit b253c5545cef68676737b16b0cf0486257d78d4d[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 17:49:21 2021 -0400
+
+    adding bootstrap
+
+[33mcommit 420bbf87cdbd389c663227cb57f9271832696c02[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Sat Nov 6 17:38:38 2021 -0400
+
+    terminado crud de departamentos
+
+[33mcommit be9080bc551694adcee8cf9550d2fc04b5dbfdf1[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 18:58:16 2021 -0400
+
+    criado listar departamentos
+
+[33mcommit 43d975d757c26dfb8bb35806cfa7b8b02ef24e3f[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 18:43:34 2021 -0400
+
+    implementado criar novo funcionario
+
+[33mcommit 09577b2a6e9d0f08755c7df74748b2ee4b3f745e[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 18:27:27 2021 -0400
+
+    deletando funcionarios
+
+[33mcommit 2b74d58a56e8f5f114df9cb76ee1a5303fa11917[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 16:57:36 2021 -0400
+
+    mostrando apenas func da empresa X
+
+[33mcommit 1a45b767d3c9b1e1579d2ffd4270bb8dba8e3b57[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 15:29:33 2021 -0400
+
+    configurando empresa-permissões-users
+
+[33mcommit d2d2a56aeef0cac355a05b698d0a23883ef88193[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 13:36:51 2021 -0400
+
+    crud empresa
+
+[33mcommit 79ca29de3eed8bc1a37bb95b2cf3dff0b89800b9[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 12:11:58 2021 -0400
+
+    implementando login
+
+[33mcommit fabce6beb2e2c15793c968a1964ae14019d08a64[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 11:25:36 2021 -0400
+
+    criando relacionamentos de bd
+
+[33mcommit 6ad34ef87b755d06b4b3334b6622103956516b7e[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 10:59:30 2021 -0400
+
+    adição de apps registro e documento
+
+[33mcommit 43bf2501c75b2e945d2e77abc76c714db7b10285[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 10:45:59 2021 -0400
+
+    subindo app departamentos
+
+[33mcommit d77795e0f95de7db01ae6ce56a0f06ce66d637b9[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 10:41:47 2021 -0400
+
+    subindo app funcionarios
+
+[33mcommit 40687ad13e48c145dd756a9464ec58a831d2e813[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 10:34:18 2021 -0400
+
+    criando a app empresas
+
+[33mcommit 5f701a86d5b7c8f25448b9da544717f261c037ef[m
+Author: phml <paulo3385@hotmail.com>
+Date:   Thu Nov 4 09:56:22 2021 -0400
+
+    first commit

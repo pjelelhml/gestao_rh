@@ -26,7 +26,8 @@ INSTALLED_APPS = [
     'apps.core',
     'bootstrapform',
 
-    'rest_framework'
+    'rest_framework',
+    'bootstrap4'
 ]
 
 MIDDLEWARE = [
@@ -96,7 +97,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "staticfiles"),
+    os.path.join(BASE_DIR, "static"),
 ]
 
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")
