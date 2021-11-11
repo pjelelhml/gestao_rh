@@ -17,13 +17,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'apps.empresas',
     'apps.funcionarios',
     'apps.departamentos',
     'apps.documentos',
     'apps.registro_hora_extra',
     'apps.core',
-    'bootstrapform'
+    'bootstrapform',
+
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -96,7 +99,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "staticfiles"),
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = '/media/'
 
