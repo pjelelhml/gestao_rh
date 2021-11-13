@@ -1,6 +1,10 @@
+import json
+
 from django.urls import reverse_lazy
 from django.urls.base import reverse
 from django.views.generic import (ListView, UpdateView, DeleteView, CreateView, )
+from django.views import View
+from django.http import HttpResponse
 
 from .forms import RegistroHoraExtraForm
 from .models import RegistroHoraExtra
@@ -62,4 +66,9 @@ class HoraExtraNovo(CreateView):
         kwargs.update({'user': self.request.user})
         return kwargs
 
+
+class UtilizouHoraExtra(View):
+    def post(self, *args, **kwargs):
+        response = json.dumps({'mensagem': 'requisição executada'})
+        return HttpResponse(response, content_type='application/json')
 
