@@ -6,7 +6,7 @@ from .views import (
     HoraExtraEditBase,
     HoraExtraDelete,
     HoraExtraNovo,
-    UtilizouHoraExtra
+    UtilizouHoraExtra,
 )
 
 urlpatterns = [

@@ -16,14 +16,27 @@
     </a>    
     {% endif %}
 
+    <button id="marcarUtilizar"
+            onclick="utilizouHoraExtra({{ object.id }})" 
+            class="btn btn-primary btn-lg btn-block" 
+            type="button">
+        Marcar como utilizado
+    </button>
+{% comment %} 
+    <button id="desmarcarUtilizar" 
+            onclick="utilizouHoraExtra({{ object.id }})" 
+            class="btn btn-secondary btn-lg btn-block" 
+            type="button">
+        Marcar como nao utilizado
+    </button> {% endcomment %}
+
 </form>
 
-<button onclick="utilizouHoraExtra({{ object.id }})" class="btn btn-info">
-    Marcar como utilizado
-</button>
 
+<h2 id="horas_atualizadas">{{ object.total_horas_extra}}</h2>
 <br>
 <p id="mensagem"></p>
+
 {% endblock %}
 
 {% block static %}
