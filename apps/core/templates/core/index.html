@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load i18n %}
 
 {% block main %}
 <div class="row">
     <div class="col">
-      Column
+      {% trans 'Uma de três colunas' %}
     </div>
     <div class="col">
       Olá {{ usuario.funcionario.nome }}
