@@ -9,11 +9,14 @@ from apps.core import views
 
 from apps.funcionarios.api.serializers import FuncionarioSerializer
 from apps.funcionarios.api.views import FuncionarioViewSet
+from apps.registro_hora_extra.api.views import RegistroHoraExtraViewSet
+from apps.registro_hora_extra.api.serializers import RegistroHoraExtraSerializer
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
 router.register(r'api/funcionarios', FuncionarioViewSet)
+router.register(r'api/banco-horas', RegistroHoraExtraViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
