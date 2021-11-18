@@ -8,6 +8,8 @@ def home(request):
     data['usuario'] = request.user
     return render(request, 'core/index.html', data)
 
+
+
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
