@@ -22,6 +22,10 @@
             type="button">
         Marcar como utilizado
     </button>
+
+    <button id="naoUtilizar" class="btn btn-primary btn-lg btn-danger" onclick="naoUtilizouHoraExtra({{ object.id }})" type="button">
+        Marcar como não utilizada
+    </button>
 {% comment %} 
     <button id="desmarcarUtilizar" 
             onclick="utilizouHoraExtra({{ object.id }})" 

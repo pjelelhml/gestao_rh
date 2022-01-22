@@ -1,25 +1,22 @@
-{% extends 'base.html' %}
-{% load i18n %}
-
-{% block main %}
+{% extends 'base.html' %} {% load i18n %} {% block main %}
 <div class="row">
-    <div class="col">
-      {% trans 'Uma de três colunas' %}
-    </div>
-    <div class="col">
-      Olá {{ usuario.funcionario.nome }}
-        <a href="{% url 'list_funcionarios' %}">Gerenciar funcionarios</a>
-        <a href="{% url 'list_departamentos' %}">Gerenciar departamentos</a>
-        <a href="{% url 'list_hora_extra' %}">Gerenciar banco de horas</a>
-    </div>
-    <div class="col">
-        <a href="{% url 'logout' %}">LOGOUT</a>
-
-        {% if usuario.funcionario.empresa %}
-            <a href="{% url 'edit_empresa' usuario.funcionario.empresa.id %}">Editar Empresa</a>
-        {% else %}
-            <a href="{% url 'create_empresa' %}">Criar empresa</a>
-        {% endif %}
-    </div>
+  <div class="col">{% trans 'Uma de três colunas' %}</div>
+  <div class="col">
+    Olá {{ usuario.funcionario.nome }}
+    <a href="{% url 'list_funcionarios' %}">Gerenciar funcionarios</a>
+    <a href="{% url 'list_departamentos' %}">Gerenciar departamentos</a>
+    <a href="{% url 'list_hora_extra' %}">Gerenciar banco de horas</a>
   </div>
+  <div class="col">
+    <a href="{% url 'logout' %}">LOGOUT</a>
+
+    {% if usuario.funcionario.empresa %}
+    <a href="{% url 'edit_empresa' usuario.funcionario.empresa.id %}"
+      >Editar Empresa</a
+    >
+    {% else %}
+    <a href="{% url 'create_empresa' %}">Criar empresa</a>
+    {% endif %}
+  </div>
+</div>
 {% endblock %}
